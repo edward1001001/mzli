@@ -2,25 +2,43 @@
 <html>
  <head>
    <title>YOUR NAME Portfolio</title>
-   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/style.css">
  </head>
  <body>
    <nav>
      <ul>
        <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
        <li><a href=”/resume”>Resume</a></li>
+       <li><a href="https://scholar.google.com/citations?user=Xb9Bp2oAAAAJ&hl=en&oi=ao">Google Scholar</a></li>
+       <li><a href=”/about”>About</a></li>
      </ul>
    </nav>
    <div class=”container”>
      <div class=”blurb”>
        <h1>Welcome to Mengzhou Li's 1-page intro!</h1>
-       <p>Mengzhou Li is a PhD student enjoys solving real-world problems from both hardware and software sides. His work on <a href="https://iopscience.iop.org/article/10.1088/0957-0233/27/12/125014/meta">‘Limited Energy Loss reading criterion’</a> was adopted in ISO standard for highest reading accuracy in optical measurement of grooves. His recent research interest covers the whole chain of PCCT (Photon-Counting CT) from the correction for <a href="https://arxiv.org/abs/2007.03119">data imperfection</a>, system misalignment, and <a href="https://doi.org/10.1117/12.2646714">patient motion</a> to the deep reconstruction. He is the recipient of Science and Technology Progress Award 2017 by Chinese Society for Measurement and Standards Innovation Contribution Award 2022 by State Administration for Market Regulation of China.</a></p>
+       <p style="text-align: justify;">Mengzhou Li is a PhD student at <a href="https://wang-axis.github.io/">Dr. Ge Wang's lab</a> and enjoys solving real-world problems from both hardware and software sides. His work on <a href="https://iopscience.iop.org/article/10.1088/0957-0233/27/12/125014/meta">'Limited Energy Loss reading criterion'</a> was adopted in ISO standard for highest reading accuracy in optical measurement of grooves. His recent research interest covers the whole chain of Photon-Counting CT imaging from the correction for <a href="https://arxiv.org/abs/2007.03119">data imperfection</a>, system misalignment, and <a href="https://doi.org/10.1117/12.2646714">patient motion</a> to the deep reconstruction. He is the recipient of Science and Technology Progress Award 2017 by Chinese Society for Measurement and Standards Innovation Contribution Award 2022 by State Administration for Market Regulation of China.</a></p>
      </div>
    </div>
+
+   <div class=”inner”>
+      <h2>Interesting System Designs</h2>
+      <img src="figures/SystemDesigns.png">
+      <p style="font-size:20px;">(a) LR medical CT (global scan) + HR robotic CT (local scan) &Rightarrow; <a href="https://ieeexplore.ieee.org/abstract/document/9301301">Accurate 50 &mu;m HR VOI imaging</a> at normal CT scan radiation dose for middle and inner ear diseases diagnosis and treatment.<br>
+      (b) Permanent magnet made low field MR + Low-cost CT &Rightarrow; <a href="https://ieeexplore.ieee.org/document/9896883">Cost-effective CT-MRI prototype</a> for portability, popularity, and point of care. Particularly valuable for disaster scenes and battle fields.</p>
+    </div>
+
+  <div class=”inner”>
+    <h2 margin-bottom:0px;>Useful Correction Algorithms</h2>
+    <img margin-top:0px; src="figures/RoboticCT.png">
+    <p style="font-size:20px;">Ultrahigh resolution CT achieved beyond the mechanical precision limit of Robotic arms with <a href="https://doi.org/10.1117/12.2635263">locally linear embedding-based motion correction</a> method compensating the coordination error and system misalignment.</p>
+    <img src="figures/NanoCT.png">
+    <p style="font-size:20px;">In nano-CT the metal pin supporting the specimen could sometimes occlude partial of the sinogram and cause strong artifacts. With our <a href="https://doi.org/10.1117/12.2635261">MPAR method</a>, structures are recovered under different occlusion ratios.</p>
+  </div>
+
    <footer>
    <ul>
-     <li><a href=”mailto:YOUREMAIL”>YOUREMAIL</a></li>
+     <li><a href="mailto:lim23@rpi.edu">lim23@rpi.edu</a></li>
+     <li><a href="https://scholar.google.com/citations?user=Xb9Bp2oAAAAJ&hl=en&oi=ao">More at Google Scholar</a></li>
    </ul>
    </footer>
  </body>
